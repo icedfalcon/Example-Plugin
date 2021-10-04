@@ -1,0 +1,10 @@
+name: Example
+version: '${project.version}'
+main: com.icefalcon.example.Example
+authors: [ IcedFalcon ]
+description: A example plugin for 1.8.8 spigot
+# Registers the commands for server
+commands:
+  example:
+    description: Example Command
+    usage: /<command>
